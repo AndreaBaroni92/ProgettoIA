@@ -3,7 +3,27 @@ import sys, getopt , os
 from operator import itemgetter
 from geopy.distance import lonlat, distance
 ns = {'n':'http://graphml.graphdrawing.org/xmlns'} #namespace
+# VNF attribute KEYs
+VNF_KEY_ID = 0
+VNF_KEY_TYPE = 1
 
+
+# VNF type IDs
+GATEWAY = 9
+ENDPOINT = 10
+WANA = 2
+DPI = 1
+SHAPER = 3
+VPN = 4
+NAT = 5
+type_list = [DPI,WANA,SHAPER,VPN,NAT]
+
+
+def initVNFs(vnf_ids):
+	vnfs = []
+	for idx in vnf_ids:
+		vnfs.append([idx+1,0, 0, 0, 0, 0, 1, 0])
+	return vnfs
 
 def getNumberOfDomains(root): #restituisce il numero di nodi univoci
         listOfN=[] #per avere una lista univoca
@@ -15,8 +35,10 @@ def getNumberOfDomains(root): #restituisce il numero di nodi univoci
 def createNodeLinks(listOfNodes): #costruisce la lista di links 
         links = []
         for n in listOfNodes:
-                if not ([n.get('source'),n.get('target')] in links):
-                        links.append([n.get('source'),n.get('target')])
+                s = int(n.get('source'))
+                t = int(n.get('target'))
+                if not ([s,t] in links):
+                        links.append([s,t])
         return links
         
 
@@ -49,10 +71,30 @@ def getAtrId(InputNodes,s): #funzione per recuperare id dato atr.name
 
 
 def getDistance(a,b):#calcola la distanza tra due punti a e b che rappresentano ciascuno la latitudine e la longitudine
-        return distance(lonlat(*a), lonlat(*b)).miles
+        return int(distance(lonlat(*a), lonlat(*b)).km)
 
-def setDomainsCost(domainsCosts,domainsLinks):
-        3
+def getInfo(id,listOfNodes,InfoId): #restituisce la latitudine o longitudine di un nodo identificato da un id presente nella lista dei nodi
+        ris = 0
+        for n in listOfNodes:             
+                if n.get('id') == str(id):                       
+                        for child in n.iter('{http://graphml.graphdrawing.org/xmlns}data'):                               
+                                if child.get('key') == InfoId:
+                                        ris = child.text
+        return ris
+                        
+
+def setDomainsCost(domainsCosts,domainsLinks,listOfNodes,idLat,idLon):
+        for i in range(len(domainsCosts)):
+                for j in range(len(domainsCosts)):
+                        if [i,j] in domainsLinks:
+                                x = getInfo(i,listOfNodes,idLon)
+                                y = getInfo(i,listOfNodes,idLat)
+                                z = getInfo(j,listOfNodes,idLon)
+                                w = getInfo(j,listOfNodes,idLat)
+                                ris = getDistance((x,y),(z,w))
+                                domainsCosts[i][j]= ris
+
+        
 
 #MAIN       
 
@@ -61,14 +103,8 @@ if __name__ == "__main__":
         inp =  getSourceFile(sys.argv[1:])
         tree = ET.parse(inp)
         root = tree.getroot()
-        '''numbOfDomains = getNumberOfDomains(root.findall('.//n:graph/n:node[@id]',ns))
-        listOfNodeLinks = createNodeLinks(root.findall('.//n:graph/n:edge[@source][@target]',ns))
-        # print(listOfNodeLinks)
-        #string
-
-        # stringfy link 
 	# ----------------------------
-        str_vnf_link = "[|"
+        '''str_vnf_link = "[|"
         for i in range(len(listOfNodeLinks)):
                 str_vnf_link += str(listOfNodeLinks[i][0])+","+str(listOfNodeLinks[i][1]) + "|"
 
@@ -85,13 +121,17 @@ if __name__ == "__main__":
         with open(filepath, 'w+') as outfile:
                 outfile.write(out)'''
         
-        print(getAtrId(root.findall('.//n:key',ns),'latitude'))
-        print(getAtrId(root.findall('.//n:key',ns),'longitude'))
-        print(getAtrId(root.findall('.//n:key',ns),'id'))
-        numbOfDomains = getNumberOfDomains(root.findall('.//n:graph/n:node[@id]',ns))
+        idLat = getAtrId(root.findall('.//n:key',ns),'latitude')
+        idLon = getAtrId(root.findall('.//n:key',ns),'longitude')
+        listOfNodes = root.findall('.//n:graph/n:node[@id]',ns)
+        numbOfDomains = getNumberOfDomains(listOfNodes) #numero di domini
         domainsCosts = [[0 for x in range(numbOfDomains)] for y in range(numbOfDomains)] #lista per memorizzare il costo fra i vari domini inizializzata a zero
 
         #print(domainsCosts)
         listOfNodeLinks = createNodeLinks(root.findall('.//n:graph/n:edge[@source][@target]',ns))
         listOfNodeLinks.sort(key=lambda elem: elem[0])
-        print(listOfNodeLinks)
+        setDomainsCost(domainsCosts,listOfNodeLinks,listOfNodes,idLat,idLon) #genera la distanza fra i vari domini
+        print(domainsCosts)
+        
+
+        #crea info riguardo ai nodi
