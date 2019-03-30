@@ -96,6 +96,8 @@ def getInfo(id,listOfNodes,InfoId): #restituisce la latitudine o longitudine di 
 def setDomainsCost(domainsCosts,domainsLinks,listOfNodes,idLat,idLon):
         for i in range(len(domainsCosts)):
                 for j in range(len(domainsCosts)):
+                        if i == j:
+                                domainsCosts[i][j] = 0
                         if [i,j] in domainsLinks:
                                 x = getInfo(i,listOfNodes,idLon)
                                 y = getInfo(i,listOfNodes,idLat)
@@ -103,9 +105,6 @@ def setDomainsCost(domainsCosts,domainsLinks,listOfNodes,idLat,idLon):
                                 w = getInfo(j,listOfNodes,idLat)
                                 ris = getDistance((x,y),(z,w))
                                 domainsCosts[i][j]= ris
-
-
-
 
 
 def createVNFLinks(domains_links,vnfs):
@@ -198,7 +197,7 @@ def call_gen_map(n_domains,n_vnfs,domains_links,domainsCosts,filepath):
                 str_vnf += "|"
         str_vnf += "]"
 
-        M = maxM(domainsCosts) + 1 
+        M = maxM(domainsCosts)  
 
         out = "n_nodes = "+str(n_vnfs)+";\n"
         out += "M = "+str(M)+";\n"
@@ -228,12 +227,25 @@ if __name__ == "__main__":
         idLon = getAtrId(root.findall('.//n:key',ns),'longitude')
         listOfNodes = root.findall('.//n:graph/n:node[@id]',ns)
         numbOfDomains = getNumberOfDomains(listOfNodes) #numero di domini
-        domainsCosts = [[0 for x in range(numbOfDomains)] for y in range(numbOfDomains)] #lista per memorizzare il costo fra i vari domini inizializzata a zero
+        domainsCosts = [[-1 for x in range(numbOfDomains)] for y in range(numbOfDomains)] #lista per memorizzare il costo fra i vari domini inizializzata a -1
+        # il -1 serve in quanto serve per evidenziare i domini che non hanno connessioni
+
 
         #print(domainsCosts)
         listOfDomainLinks = createNodeLinks(root.findall('.//n:graph/n:edge[@source][@target]',ns))
         listOfDomainLinks.sort(key=lambda elem: elem[0])
         setDomainsCost(domainsCosts,listOfDomainLinks,listOfNodes,idLat,idLon) #genera la distanza fra i vari domini
+
+        maxCost= maxM(domainsCosts)
+
+        #i domini che non hanno connessioni fra di loro (peso -1) vengono settati al massimo costo fra i vari domini
+
+        for i in range(len(domainsCosts)):
+                for j in range(len(domainsCosts[i])):
+                        if domainsCosts[i][j]== -1:
+                                domainsCosts[i][j]= maxCost
+
+
 
         n_vnfs = 4*numbOfDomains
 
