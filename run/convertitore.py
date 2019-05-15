@@ -69,47 +69,43 @@ def domainConstraintsToModel(listOfConst):
 
 #serve per controllare i file passati come input
 def getSourceFile(argv):
-        request  = ''
-        dConstraints=''
-        outputfile = ''
-        if len(sys.argv) <= 6:
-                print('convertitore.py -r <request> -c <domain_constraints> -o <output_file> ')
+    request  = ''
+    dConstraints=''
+    outputfile = ''
+    if len(sys.argv) <= 6:
+        print('convertitore.py -r <request> -c <domain_constraints> -o <output_file> ')
+        sys.exit(1)
+    try:
+        opts ,args= getopt.getopt(argv,"hr:c:o:")
+    except getopt.GetoptError:
+        print ('convertitore.py -r <request> -c <odomain_constraints> -o <output_file> ')
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt == '-h':
+            print ('convertitore.py -r <request> -c <odomain_constraints> -o <output_file>')
+            sys.exit()
+        elif opt in ("-r"):
+            request = arg
+            if not (os.path.isfile(request)):
+                print("file "+ request+ " doesn't exist")
                 sys.exit(1)
-        try:
-             opts ,args= getopt.getopt(argv,"hr:c:o:")
-        except getopt.GetoptError:
-                print ('convertitore.py -r <request> -c <odomain_constraints> -o <output_file> ')
-                sys.exit(2)
-        for opt, arg in opts:
-                if opt == '-h':
-                        print ('convertitore.py -r <request> -c <odomain_constraints> -o <output_file>')
-                        sys.exit()
-                elif opt in ("-r"):
-                        request = arg
-                        if not (os.path.isfile(request)):
-                                print("file "+ request+ " doesn't exist")
-                                sys.exit(1)
-                elif opt in ("-c"):
-                        dConstraints = arg
-                        if not (os.path.isfile(dConstraints)):
-                                print("file "+ dConstraints+ " doesn't exist")
-                                sys.exit(1)
-                elif opt in ("-o"):
-                        outputfile = arg
+        elif opt in ("-c"):
+            dConstraints = arg
+            if not (os.path.isfile(dConstraints)):
+                print("file "+ dConstraints+ " doesn't exist")
+                sys.exit(1)
+        elif opt in ("-o"):
+            outputfile = arg
 
-        return request ,dConstraints, outputfile
+    return request ,dConstraints, outputfile
 
 
-#MAIN       
+def fromReqsJsontoDzn( userReq, domConst,fileOut):
 
-if __name__ == "__main__":
-
-    req, dConst, fileOut = getSourceFile(sys.argv[1:])
-
-    with open(req) as inpReq:  
+    with open(userReq) as inpReq:  
         requestObject = json.load(inpReq)
 
-    with open(dConst) as inpConst:  
+    with open(domConst) as inpConst:  
         constList = json.load(inpConst)
 
     validate(requestObject, schemaRequest ) #convalida il formato json delle richieste secondo lo schema definito nell'articolo
@@ -133,7 +129,7 @@ if __name__ == "__main__":
     out = "start_domain = "+str(requestObject["src"])+";\n"
     out += "target_domain = "+ str(requestObject["dst"])+";\n"
     out += "vnflist_size = "+ str (len(requestObject["vnfList"]) + 2)+";\n" #2 perche' si contano gli endpoint
-    out += "vnfList = "+ vnfToString(requestObject["vnfList"])+";\n" #lista dei vnf con l'aggiunta degli ENDPOINT  all' inizio e alla fine
+    out += "vnflist = "+ vnfToString(requestObject["vnfList"])+";\n" #lista dei vnf con l'aggiunta degli ENDPOINT  all' inizio e alla fine
     out += "vnf_arcs = "+ str_vnf_arcs +";\n"# request-Tree
     out += "proximity_to_source = " + boolToStr(requestObject["prox_to_src"]) +";\n"
     out += "proximity_to_destination = " + boolToStr(requestObject["prox_to_dst"]) +";\n"
@@ -146,5 +142,15 @@ if __name__ == "__main__":
 
     with open(fileOut, 'w+') as outfile:
         outfile.write(out)
+    
+
+#MAIN       
+
+if __name__ == "__main__":
+
+    req, dConst, fileOut = getSourceFile(sys.argv[1:])
+
+    fromReqsJsontoDzn(req,dConst,fileOut)
+
 
 

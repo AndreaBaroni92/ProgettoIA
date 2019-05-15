@@ -1,5 +1,5 @@
 schemaRequest = {  #schema per convalidare le richieste
-   "VNFs":{  
+   "VNFs":{  #duplist mettere solo dpi
       "type":"array",
       "items":{  
          "type":"string",

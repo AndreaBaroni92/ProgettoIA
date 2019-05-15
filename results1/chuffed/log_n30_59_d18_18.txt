@@ -1,0 +1,758 @@
+======
+case:dc1\\d18n30\map1.dzn
+
+optima: 6.281664609909058,5.7972612380981445
+suboptima: 
+unsat: 5.625372648239136,5.18784499168396,4.719066858291626,5.531617879867554,4.531546592712402,5.875390291213989,4.9378273487091064,4.578429937362671
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n30\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n31\map1.dzn
+
+optima: 5.687876224517822,5.766013145446777,6.453553915023804,6.0629003047943115
+suboptima: 
+unsat: 5.640998601913452,5.703505277633667,4.719071388244629,5.078464508056641,4.734689712524414,6.016024827957153
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n31\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n32\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 5.172218322753906,5.625372886657715,4.922201633453369,6.109781503677368,5.594115972518921,4.859695672988892,4.812820672988892,5.109714031219482,4.797191619873047,4.890949726104736
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n32\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n33\map1.dzn
+
+optima: 6.219165802001953,5.78163480758667
+suboptima: 
+unsat: 5.094086170196533,5.047212600708008,5.297230005264282,5.234721422195435,5.172219514846802,5.40660834312439,5.719133377075195,4.922198534011841
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n33\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n34\map1.dzn
+
+optima: 6.2816689014434814
+suboptima: 
+unsat: 6.2660393714904785,6.047277927398682,5.156594514846802,6.656695365905762,6.116471767425537,5.359727621078491,5.07846474647522,6.234791040420532,5.062831163406372
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n34\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n35\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 5.359730005264282,6.328547477722168,5.344106197357178,5.312856435775757,5.953522443771362,5.469110727310181,5.500364780426025,7.1254723072052,7.094221115112305,5.406607389450073
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n35\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n36\map1.dzn
+
+optima: 7.43799352645874,6.234789609909058,7.250483989715576
+suboptima: 
+unsat: 5.656625032424927,7.00046443939209,5.53161358833313,5.844138145446777,6.969212532043457,5.9691481590271,5.7660088539123535
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n36\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n37\map1.dzn
+
+optima: 7.0785973072052
+suboptima: 
+unsat: 6.328542947769165,5.67225193977356,5.515993118286133,5.859764337539673,7.203606605529785,5.7816314697265625,5.828508377075195,6.469182014465332,6.672320127487183
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n37\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n38\map1.dzn
+
+optima: 7.609878778457642,7.281733751296997,8.016160249710083,7.57862401008606
+suboptima: 
+unsat: 5.922266483306885,5.594121932983398,7.281735181808472,6.359796047210693,7.172350168228149,5.984771490097046
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n38\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n39\map1.dzn
+
+optima: 7.547380447387695
+suboptima: 
+unsat: 6.531686067581177,6.031650543212891,5.7972612380981445,6.000397443771362,6.984838485717773,5.781633615493774,5.922265529632568,5.891015291213989,6.953587770462036
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n39\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n40\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 6.64107084274292,7.1723504066467285,6.328543663024902,7.500497102737427,6.234789609909058,6.562939405441284,6.391045331954956,7.672386646270752,6.687945604324341,7.062971115112305
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n40\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n41\map1.dzn
+
+optima: 7.2504847049713135,8.031782388687134
+suboptima: 
+unsat: 6.094154596328735,6.797326564788818,5.98477029800415,6.625442266464233,6.062906742095947,7.641136646270752,6.17228627204895,6.2035393714904785
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n41\req1\request9.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n42\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 8.453688383102417,6.547306299209595,7.031716585159302,7.625506401062012,6.250412940979004,6.516059160232544,7.531748294830322,7.859894752502441,8.391182899475098,7.281732559204102
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n42\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n43\map1.dzn
+
+optima: 7.469245910644531,8.141164302825928
+suboptima: 
+unsat: 6.453554153442383,6.312920570373535,6.766073703765869,7.469245195388794,7.546178340911865,7.453617334365845,7.5473785400390625,8.141165018081665
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n43\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n44\map1.dzn
+
+optima: 9.109982252120972
+suboptima: 
+unsat: 7.094222784042358,6.641066074371338,7.8911521434783936,7.563003301620483,6.453552961349487,7.750516414642334,7.578629016876221,6.391047954559326,6.531686305999756
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n44\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n45\map1.dzn
+
+optima: 9.391248226165771,7.23485255241394
+suboptima: 
+unsat: 6.687945365905762,6.734821557998657,7.938030004501343,8.375555038452148,7.969280958175659,6.812959671020508,8.000534296035767,6.828578472137451
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n45\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n46\map1.dzn
+
+optima: 7.859899520874023,8.406809091567993
+suboptima: 
+unsat: 7.73488974571228,6.937960624694824,8.109914541244507,7.312989234924316,7.594255208969116,8.313053607940674,6.750450611114502,8.234922647476196
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n46\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n47\map1.dzn
+
+optima: 8.766202211380005,9.610014915466309
+suboptima: 
+unsat: 7.047338008880615,7.719266176223755,8.078659057617188,6.812955141067505,7.047340154647827,7.0785932540893555,6.859830617904663,7.422361612319946
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n47\req1\request9.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n48\map1.dzn
+
+optima: 9.172484874725342
+suboptima: 
+unsat: 7.797394037246704,7.047342777252197,7.109848260879517,7.672384738922119,8.984973430633545,9.156859159469604,7.60988187789917,9.250616788864136,7.156723737716675
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n48\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n49\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 7.750515699386597,7.641134023666382,7.203603744506836,7.64113187789917,7.297359466552734,7.203604698181152,9.359996318817139,7.453620195388794,7.547380447387695,7.437995672225952
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n49\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n50\map1.dzn
+
+optima: 8.219295024871826,8.40680980682373,8.000534057617188
+suboptima: 
+unsat: 7.437996864318848,7.625506162643433,8.938093662261963,7.891148567199707,8.703705310821533,8.906842947006226,7.859896898269653
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n50\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n51\map1.dzn
+
+optima: 8.9380943775177,10.281933069229126
+suboptima: 
+unsat: 7.875526189804077,8.750584840774536,7.984905481338501,8.813087463378906,7.922398328781128,8.35993218421936,7.844271421432495,9.047473669052124
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n51\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n52\map1.dzn
+
+optima: 9.51625657081604
+suboptima: 
+unsat: 7.641130685806274,7.969280004501343,8.688080072402954,9.469380140304565,8.802673816680908,7.672382354736328,8.047408819198608,8.438061714172363,7.609881162643433
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n52\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n53\map1.dzn
+
+optima: 9.953787803649902
+suboptima: 
+unsat: 9.46938157081604,9.063106298446655,8.875591278076172,7.516124963760376,10.156929969787598,8.016162157058716,7.875524997711182,9.844404220581055,8.125537157058716
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n53\req1\request9.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n54\map1.dzn
+
+optima: 11.125741958618164,9.12560749053955
+suboptima: 
+unsat: 10.938230276107788,9.359994888305664,9.641263008117676,9.875657558441162,8.016157865524292,9.234988927841187,8.484941720962524,7.9536542892456055
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n54\req1\request9.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n55\map1.dzn
+
+optima: 11.375757932662964,10.360068798065186,9.469381332397461,11.31325078010559,9.860028266906738,9.90690541267395
+suboptima: 
+unsat: 9.03184986114502,9.063101053237915,8.078665018081665,10.469447374343872
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n55\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n55\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n55\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n55\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n56\map1.dzn
+
+optima: 9.87565541267395,10.031920433044434,10.438192129135132,9.735022783279419
+suboptima: 
+unsat: 10.297558307647705,10.141301155090332,9.938162803649902,9.969414472579956,8.797463417053223,8.500566244125366
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n56\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n57\map1.dzn
+
+optima: 10.406943321228027,10.034080982208252
+suboptima: 
+unsat: 8.953721046447754,8.844336748123169,9.703769445419312,8.906843662261963,11.203869342803955,10.55969786643982,9.000600337982178,8.719329595565796
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n57\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n58\map1.dzn
+
+optima: 9.500629901885986
+suboptima: 
+unsat: 9.961687564849854,8.609949588775635,8.828712463378906,8.734956741333008,9.531886100769043,9.797527551651001,10.063167095184326,8.828714370727539,11.094489097595215
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n58\req1\request10.dzn
+uncompile_case:
+
+======
+case:dc1\\d18n59\map1.dzn
+
+optima: 
+suboptima: 
+unsat: 10.391316413879395,10.00066328048706,8.516191720962524,9.14123272895813,10.235053539276123,9.250617265701294,9.719396114349365,9.375624179840088,9.063102722167969,9.813153505325317
+uncompile: 
+failed: 
+
+---
+suboptimal_case:
+
+failed_case:
+
+unsat_case:
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request1.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request2.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request3.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request4.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request5.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request6.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request7.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request8.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request9.dzn
+map1.dzn C:\Users\utente\Documents\Laurea_Magistrale\Intelligenza_Artificiale\Progetto\NetZoo\testbed\data-exp-n59-d18\d18n59\req1\request10.dzn
+uncompile_case:
+
