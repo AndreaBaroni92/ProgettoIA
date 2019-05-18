@@ -1,0 +1,9 @@
+start_domain = 5;
+target_domain = 1;
+vnflist_size = 4;
+vnflist = [10,5,1,10];
+vnf_arcs = [|1,2|2,3|2,4|];
+proximity_to_source = [0,1,0,0];
+proximity_to_destination = [0,0,0,0];
+n_domain_constraints = 1;
+domain_constraints = [|4,1,1,1|];

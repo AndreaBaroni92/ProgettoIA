@@ -1,12 +1,12 @@
 output (((([show(link_selection),show(selected_domain)]++["total_cost = ",show(total_cost),"\n"])++[show(domain_path)])++[show(vnf_match)])++[show(n_fun_nodes)])++[show(selected_nodes)];
-int: n_nodes = 1062;
-int: n_domains = 18;
-int: num_node_links = 2119;
-int: vnflist_size = 4;
+int: n_nodes = 531;
+int: n_domains = 9;
+int: num_node_links = 1080;
+int: vnflist_size = 6;
 array [1..vnflist_size] of int: vnf_match;
 array [1..n_domains,1..n_domains] of int: domain_path;
 array [1..n_domains] of int: selected_domain;
 array [1..n_nodes] of int: selected_nodes;
 array [1..num_node_links] of int: link_selection;
-int: n_fun_nodes = 4;
+int: n_fun_nodes = 6;
 int: total_cost;

@@ -159,6 +159,9 @@ def run_dc(test_nodes,test_domains,test_maps,rep,solver,dc_range):
 					failed_times = []
 					uncompile_times = []
 					unsat_times = []
+					update_times = []
+
+					opt_case =[]
 					uncompile_case = []
 					failed_case = []
 					unsat_case = []
@@ -274,6 +277,10 @@ def run_dc(test_nodes,test_domains,test_maps,rep,solver,dc_range):
 							
 							if state == "optsolved":
 								solved_times.append(time_lapse)
+
+								update_time_start = time.time()
+
+
 								#print(rlt)
 
 								# toparse= rlt.splitlines()
@@ -296,9 +303,18 @@ def run_dc(test_nodes,test_domains,test_maps,rep,solver,dc_range):
 								updateMapJson = scenario+os.sep+"map"+str(mapx)+"req"+str(dc)+"request"+str(r)+".json"
 								updateMapDzn = scenario+os.sep+"map"+str(mapx)+"req"+str(dc)+"request"+str(r)+".dzn"
 								
-								updateMap(testMapJson,vnfToDeleteInt,updateMapJson,updateMapDzn)	
+								updateMap(testMapJson,vnfToDeleteInt,updateMapJson,updateMapDzn)
+
+								update_time_end = time.time() - update_time_start
+
+								update_times.append(update_time_end)
+
+								opt_case.append(casenote)
+
 								testMapJson = updateMapJson
 								testMap = updateMapDzn
+
+								mapnote = "map"+str(mapx)+"req"+str(dc)+"request"+str(r)+".dzn"
 
 
 
@@ -327,17 +343,29 @@ def run_dc(test_nodes,test_domains,test_maps,rep,solver,dc_range):
 						print ("---")
 					
 					out = "======\n"+"case:"+foldernote+"\n\n"
+
+
+					if (len(update_times) == 0):
+
+						update_times = [str(0)]
+
+					else:
+
+						update_times = [str(x) for x in update_times]
+
 					solved_times = [str(x) for x in solved_times]
 					failed_times = [str(x) for x in failed_times]
 					subsolve_times = [str(x) for x in subsolve_times]
 					unsat_times = [str(x) for x in unsat_times]
 					uncompile_times = [str(x) for x in uncompile_times]
 					out += "optima: "+",".join(solved_times)+"\n"
+					out += "time_update: "+",".join(update_times)+"\n"
 					out += "suboptima: "+",".join(subsolve_times)+"\n"
 					out += "unsat: "+",".join(unsat_times)+"\n"
 					out += "uncompile: "+",".join(uncompile_times)+"\n"
 					out += "failed: "+",".join(failed_times)+"\n\n"
 					out += "---\n"
+					out += "optimal_case:\n"+"\n".join(opt_case)+"\n"
 					out += "suboptimal_case:\n"+"\n".join(subsolve_case)+"\n"
 					out += "failed_case:\n"+"\n".join(failed_case)+"\n"
 					out += "unsat_case:\n"+"\n".join(unsat_case)+"\n"

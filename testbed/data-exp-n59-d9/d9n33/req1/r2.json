@@ -1,0 +1,1 @@
+{"src": 5, "dst": 8, "dupList": ["DPI"], "vnfList": ["TS", "DPI", "NAT"], "prox_to_src": [false, true, false], "prox_to_dst": [false, false, true]}

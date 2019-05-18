@@ -15,7 +15,7 @@ from kit_run import run_dc
 #test_nodes = range(40,100) #,odificato
 test_nodes = range(30,60)
 #test_domains = range(15,16)
-test_domains = [18]
+test_domains = [9]
 #dc_range = range(2,3)
 dc_range = [1]
 test_maps = range(1,2)
